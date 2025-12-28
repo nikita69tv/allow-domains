@@ -1,0 +1,30 @@
+name: Compile SRS
+on:
+  push:
+    paths:
+      - 'roblox.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install sing-box
+        run: |
+          curl -Lo sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.8.0/sing-box-1.8.0-linux-amd64.tar.gz
+          tar -xvf sing-box.tar.gz
+          mv sing-box-*/sing-box .
+
+      - name: Compile Rule Set
+        run: |
+          ./sing-box rule-set compile roblox.json -o roblox.srs
+
+      - name: Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add roblox.srs
+          git commit -m "Update compiled srs" || exit 0
+          git push
