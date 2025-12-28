@@ -3,28 +3,28 @@
   "rules": [
     {
       "domain": [
-        [cite_start]"api.roblox.com", "assetgame.roblox.com", "blox.com", "captcha.roblox.com", [cite: 2]
-        [cite_start]"cdn.arkoselabs.com", "chat.roblox.com", "chatsite.roblox.com", [cite: 2]
-        [cite_start]"clientsettings.api.roblox.com", "d1unuk07s6td74.cloudfront.net", [cite: 2]
-        [cite_start]"goblocks.com", "goblox.com", "gooblox.com", "humancoexperience.com", [cite: 2]
-        [cite_start]"js.rbxcdn.com", "rblx.co", "rblx.com", "rblx.org", "rbx.com", [cite: 2]
-        [cite_start]"rbxcdn.biz", "rbxcdn.cc", "rbxcdn.co", "rbxcdn.com", "rbxcdn.dev", [cite: 2]
-        [cite_start]"rbxcdn.fun", "rbxcdn.gg", "rbxcdn.io", "rbxcdn.me", "rbxcdn.net", [cite: 2]
-        [cite_start]"rbxcdn.one", "rbxcdn.online", "rbxcdn.org", "rbxcdn.services", [cite: 2]
-        [cite_start]"rbxcdn.site", "rbxcdn.space", "rbxcdn.store", "rbxcdn.tech", [cite: 2]
-        [cite_start]"rbxcdn.today", "rbxcdn.tv", "rbxcdn.us", "rbxcdn.work", "rbxcdn.world", [cite: 2]
-        [cite_start]"rbxcdn.xyz", "rbxinfra.net", "rbxlabs.com", "rbxtrk.com", "ro-blox.com", [cite: 2]
-        [cite_start]"roadblocks.com", "roblocks.com", "roblox-api.arkoselabs.com", [cite: 2]
-        [cite_start]"roblox-load-generator-configuration.s3.us-east-2.amazonaws.com", [cite: 2]
-        [cite_start]"roblox-poc.global.ssl.fastly.net", "roblox.ca", "roblox.cc", "roblox.cl", [cite: 2]
-        [cite_start]"roblox.cn", "roblox.co.jp", "roblox.co.uk", "roblox.com", "roblox.de", [cite: 2]
-        [cite_start]"roblox.dk", "roblox.eu", "roblox.fr", "roblox.hu", "roblox.it", [cite: 2]
-        [cite_start]"roblox.jp", "roblox.kr", "roblox.mx", "roblox.net", "roblox.org", [cite: 2]
-        [cite_start]"roblox.ph", "roblox.pt", "roblox.qq.com", "roblox.sk", "roblox.tv", [cite: 2]
-        [cite_start]"roblox.uk", "roblox.us", "roblox.vn", "robloxapp.com", [cite: 2]
-        [cite_start]"robloxcorp.s.llnwi.net", "robloxgames.com", "robloxlabs.com", [cite: 2]
-        [cite_start]"rowblocks.com", "rowblox.com", "setup.rbxcdn.com", "setup.roblox.com", [cite: 2]
-        [cite_start]"static.rbxcdn.com", "versioncompatibility.api.roblox.com" [cite: 2]
+        "api.roblox.com", "assetgame.roblox.com", "blox.com", "captcha.roblox.com",
+        "cdn.arkoselabs.com", "chat.roblox.com", "chatsite.roblox.com",
+        "clientsettings.api.roblox.com", "d1unuk07s6td74.cloudfront.net",
+        "goblocks.com", "goblox.com", "gooblox.com", "humancoexperience.com",
+        "js.rbxcdn.com", "rblx.co", "rblx.com", "rblx.org", "rbx.com",
+        "rbxcdn.biz", "rbxcdn.cc", "rbxcdn.co", "rbxcdn.com", "rbxcdn.dev",
+        "rbxcdn.fun", "rbxcdn.gg", "rbxcdn.io", "rbxcdn.me", "rbxcdn.net",
+        "rbxcdn.one", "rbxcdn.online", "rbxcdn.org", "rbxcdn.services",
+        "rbxcdn.site", "rbxcdn.space", "rbxcdn.store", "rbxcdn.tech",
+        "rbxcdn.today", "rbxcdn.tv", "rbxcdn.us", "rbxcdn.work", "rbxcdn.world",
+        "rbxcdn.xyz", "rbxinfra.net", "rbxlabs.com", "rbxtrk.com", "ro-blox.com",
+        "roadblocks.com", "roblocks.com", "roblox-api.arkoselabs.com",
+        "roblox-load-generator-configuration.s3.us-east-2.amazonaws.com",
+        "roblox-poc.global.ssl.fastly.net", "roblox.ca", "roblox.cc", "roblox.cl",
+        "roblox.cn", "roblox.co.jp", "roblox.co.uk", "roblox.com", "roblox.de",
+        "roblox.dk", "roblox.eu", "roblox.fr", "roblox.hu", "roblox.it",
+        "roblox.jp", "roblox.kr", "roblox.mx", "roblox.net", "roblox.org",
+        "roblox.ph", "roblox.pt", "roblox.qq.com", "roblox.sk", "roblox.tv",
+        "roblox.uk", "roblox.us", "roblox.vn", "robloxapp.com",
+        "robloxcorp.s.llnwi.net", "robloxgames.com", "robloxlabs.com",
+        "rowblocks.com", "rowblox.com", "setup.rbxcdn.com", "setup.roblox.com",
+        "static.rbxcdn.com", "versioncompatibility.api.roblox.com"
       ]
     }
   ]
