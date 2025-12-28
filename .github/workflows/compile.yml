@@ -1,8 +1,8 @@
-name: Compile SRS
+name: Compile Separate SRS
 on:
   push:
     paths:
-      - 'roblox.json'
+      - '**.json'
   workflow_dispatch:
 
 jobs:
@@ -13,18 +13,19 @@ jobs:
 
       - name: Install sing-box
         run: |
-          curl -Lo sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.8.0/sing-box-1.8.0-linux-amd64.tar.gz
+          curl -Lo sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.10.1/sing-box-1.10.1-linux-amd64.tar.gz
           tar -xvf sing-box.tar.gz
           mv sing-box-*/sing-box .
 
-      - name: Compile Rule Set
+      - name: Compile IP and Domain Rule Sets
         run: |
-          ./sing-box rule-set compile roblox.json -o roblox.srs
+          ./sing-box rule-set compile roblox_ip.json -o roblox_ip.srs
+          ./sing-box rule-set compile roblox_domain.json -o roblox_domain.srs
 
       - name: Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add roblox.srs
-          git commit -m "Update compiled srs" || exit 0
+          git add roblox_ip.srs roblox_domain.srs
+          git commit -m "Update compiled srs files" || exit 0
           git push
